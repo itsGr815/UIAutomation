@@ -1,0 +1,83 @@
+MPLogin:
+  userName: "andy@gmail.com1"
+  password: "Password@123"
+
+WhiteWholes:
+  Produce: "Cashew - Processed"
+  Variety: "White Wholes"
+  Grade: "White"
+  Sizes:
+    - WW 180
+    - WW 210
+    - WW 240
+    - WW 320
+    - WW 400
+
+WhitePieces:
+  Produce: "Cashew - Processed"
+  Grade: "White"
+  Variety: "White Pieces"
+  Sizes:
+    - B (Butts)
+    - S (Splits)
+    - WLP (White Large Pieces)
+    - WSP (White Small Pieces)
+    - WBB (White Baby Bits)
+
+ScorchedWholes:
+  Produce: "Cashew - Processed"
+  Variety: "Scorched Wholes"
+  Grade: "White"
+  Sizes:
+    - SW 180
+    - SW 210
+    - SW 240
+    - SW 320
+    - SW 400
+
+ScorchedPieces:
+  Produce: "Cashew - Processed"
+  Variety: "Scorched Pieces"
+  Grade: "White"
+  Sizes:
+    - SB (Scorched Butts)
+    - SS (Scorched Splits)
+    - SP (Scorched Pieces)
+    - SSP (Scorched Small Pieces)
+
+DessertWholes:
+  Produce: "Cashew - Processed"
+  Variety: "Dessert Wholes"
+  Grade: "Dessert"
+  Sizes:
+    - DSW (Dessert Scorched Wholes ) (Low Grade)
+    - DW (Dessert Wholes)
+
+DessertPieces:
+  Produce: "Cashew - Processed"
+  Variety: "Dessert Pieces"
+  Grade: "Dessert"
+  Sizes:
+    - DSP (Dessert Scorched Pieces )  (Low Grade)
+    - DP (Dessert Pieces)
+
+CashewRaw48:
+  Produce: "Cashew - Raw"
+  Variety: "Raw Cashew"
+  Grade: "Grade 48"
+  Sizes:
+    - 48
+
+CashewRaw50:
+  Produce: "Cashew - Raw"
+  Variety: "Raw Cashew"
+  Grade: "Grade 50"
+  Sizes:
+    - 50
+
+CashewRaw52:
+  Produce: "Cashew - Raw"
+  Variety: "Raw Cashew"
+  Grade: "Grade 52"
+  Sizes:
+    - 52
