@@ -4,6 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.text.DecimalFormat;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Hello world!
@@ -26,6 +27,8 @@ public class App
 
 
     public void launchChrome(){
+        //  Run Configurations
+        //-ea -DEnv=Env to Tests -DURL=Website URL
         System.setProperty("webdriver.chrome.driver", "D:/dFarm/dFarm/Automation/chromedriver.exe");
 
         ChromeOptions chromeOpt = new ChromeOptions();
@@ -33,6 +36,9 @@ public class App
         ChromeDriver chromeDriver = new ChromeDriver(chromeOpt);
 
         chromeDriver.get("https://distribution.dfarm.in/login");
+        chromeDriver.navigate().refresh();
+        chromeDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        chromeDriver.manage().window().maximize();
     }
 
 
